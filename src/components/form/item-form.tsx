@@ -84,6 +84,7 @@ const products = [
   { label: "Sling Bag", value: "slingbag" },
   { label: "Wallet", value: "wallet" },
   { label: "Belt", value: "belt" },
+  { label: "Hand Bag", value: "handbag" },
   { label: "General", value: "general" },
 ] as const
 
@@ -94,6 +95,8 @@ const dealers = [
   { label: "Fly bag", value: "fly" },
   { label: "Zabco bag", value: "zab" },
   { label: "Market", value: "mar" },
+  { label: "Falcon", value: "fal" },
+  { label: "Impress", value: "imp" },
   { label: "Peri bag", value: "per" },
   { label: "Dubbly bag", value: "sur" },
   { label: "Fast Fashion", value: "ffb" },
