@@ -48,7 +48,7 @@ export async function RecentSales() {
                 <div className="flex flex-col space-y-1">
                   <Link
                     href={`/billv2/${entry.id}`}
-                    className="flex space-x-2 text-sm font-medium leading-none transition duration-300 ease-in-out hover:underline"
+                    className="flex space-x-2 text-sm font-medium leading-none transition duration-300 ease-in-out hover:underline truncate"
                     target="_blank"
                   >
                     {entry.customerName}
